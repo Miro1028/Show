@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 body {
     width: 100%;
@@ -41,4 +42,94 @@ a:hover, a:active { text-decoration: none; color:black }
     display: inline;
     text-decoration: underline 1px;
     font-weight: normal;
+}
+
+#articleOne {
+    background-color: #E2E2E2;
+    width: 90vw;
+    height: 262px;
+    position: absolute;
+    top: 160px;
+    left: 65px;
+}
+
+#chart {
+    
+    position: absolute;
+    width: 530px;
+    height: 239px;
+    left: 10px;
+    top: 10px;
+}
+#Text {
+    width: 620px;
+    height: 262px;
+    position: absolute;
+    left: 540px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #E2E2E2;
+}
+#articleOneText {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+}
+#textStrongOne {
+    font-size: 24px;
+}
+button {
+    position: absolute;
+    top: 150px;
+    width: 135px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #95AEEC;
+    font-weight: bold;
+    right: 250px;
+}
+
+
+#articleTwo {
+    background-color: #E2E2E2;
+    width: 90vw;
+    height: 262px;
+    position: absolute;
+    top: 450px;
+    left: 65px;
+}
+#TextTwo {
+    width: 620px;
+    height: 262px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #E2E2E2;
+}
+#portfolio {
+    position: absolute;
+    width: 503.47px;
+    height: 239px;
+    left: 635px;
+    top: 10px;
+}
+#articleTwoText {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+}
+#textStrongTwo {
+    font-size: 24px;
+}
+#buttonTwo {
+    position: absolute;
+    top: 170px;
+    width: 135px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #95AEEC;
+    font-weight: bold;
+    right: 250px;
 }
